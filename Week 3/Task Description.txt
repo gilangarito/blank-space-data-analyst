@@ -1,0 +1,17 @@
+Task Description
+
+Business User Requirement
+A newly appointed research manager within the FMCG company wants to easily get information regarding food nutrition within his computer.  For that reason, he wants to use the official data from US Government to have up-to-date information and want to know if the published food count has been published.
+The manager asks you as a Data Analyst to build the dashboard for his business requirement. There is information that the manager wants to have in their dashboard:
+1.	The data should have the information for the description, publication date, and the food nutrients ('Protein', 'Total lipid (fat)', 'Carbohydrate, by difference', 'Energy', 'Alcohol, ethyl', 'Water') if exist. You do not need to care for the unit for now.
+2.	The dashboard should be able to filter the data by the publication date (not unique but by date), and by the food nutrients of choice.
+3.	The dashboard should have the table presenting the data based on the filter.
+4.	The dashboard should have an appropriate visualization to present how many published foods throughout time and could be filtered. 
+
+Data Description
+The data could be accessed using REST API in with endpoint API endpoint: https://api.nal.usda.gov/fdc/v1/foods/list
+You could get more explanation regarding the data and request the API Key from the API Documentation here: https://fdc.nal.usda.gov/api-guide.html 
+For this task, you could limit the data to the top 10000.
+
+Task
+From the business user requirement above, try to create a dashboard that meets the business user requirement. You could try to add more visualization or features if you feel appropriate but try to answer the business requirement first. 
